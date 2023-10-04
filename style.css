@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3.5rem 1.5rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.logo {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #0077b6;
+}
+
+.container-head {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.covid-news {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.3rem;
+  padding-left: 1.1rem;
+  padding-right: 0.7rem;
+  padding-bottom: 1rem;
+  border: #707070 solid 1px;
+  border-radius: 10px;
+}
+.text-block {
+  color: #7f7f7f;
+  line-height: 1.5rem;
+}
+
+.blue-text {
+  color: #0077b6;
+}
+.dot-icon {
+  height: 4px;
+  width: 4px;
+}
+
+.icon-arrow {
+  height: 24px;
+}
+
+.top-news-header {
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.under-heading {
+  font-size: 1rem;
+  color: #7f7f7f;
+  margin-bottom: 1rem;
+}
+
+.top-news-pic {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+.top-news-txt {
+  width: 75%;
+  line-height: 1.5rem;
+}
+
+.top-sub-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7f7f7f;
+  font-size: 0.9rem;
+  width: 45%;
+}
+
+.dot-icon-png {
+  height: 4px;
+}
+
+.recommended {
+  margin-bottom: 3rem;
+}
