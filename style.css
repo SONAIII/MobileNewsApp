@@ -1,11 +1,140 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
-body {
+.body-ex-footer {
   margin: 3.5rem 1.5rem;
 }
 header {
@@ -84,7 +213,7 @@ header {
 }
 .top-news-txt {
   width: 75%;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 
 .top-sub-info {
@@ -94,6 +223,7 @@ header {
   color: #7f7f7f;
   font-size: 0.9rem;
   width: 45%;
+  margin-top: 1rem;
 }
 
 .dot-icon-png {
@@ -101,5 +231,53 @@ header {
 }
 
 .recommended {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.news-txt {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-heading {
+  line-height: 1.5rem;
+}
+.news-tags {
+  display: flex;
+  color: #7f7f7f;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  max-width: fit-content;
+
+  align-items: center;
+}
+.news-tags .dot-icon-png {
+  margin: 0rem 0.6rem;
+}
+
+.news-pic {
+  height: 100%;
+}
+footer {
+  margin-left: 0;
+  margin-right: 0;
+}
+.menu {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  border-top: rgba(127, 127, 127, 0.1) solid 1px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
